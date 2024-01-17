@@ -1,0 +1,123 @@
+
+
+        /* HEADER  */
+
+        header {
+            position: fixed;
+            width: 100%;
+            z-index: 25;
+            background-color: #fff;
+        }
+        
+        
+        .nav-2 {
+            height: 70px;
+            font-size: medium;
+            font-weight: 200;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            position: relative;
+            border-top: 2px solid #fff;
+        }
+        
+        .nav-2 ul {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        
+        .nav-2 li {
+            padding: 10px 30px;
+            margin-top: 5px;
+            border-radius: 10px;
+            text-align: center;
+            list-style: none;
+            width: max-content;
+            text-align: center;
+        }
+        .nav-2 li:hover {
+            background-color: black;
+        }
+        
+        .nav-2 a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: capitalize !important;
+        }
+        
+        h2 {
+            width: 100% !important;
+            padding-left: 20px !important;
+        }
+        
+        
+        /* LEFT ASIDE */
+        
+        .left-aside {
+            position: fixed !important;
+            top: 140px;
+            padding-bottom: 200px;
+        }
+        
+        
+        .list-group-item {
+            border-radius: 10px;
+        }
+        
+        
+        
+        .list-group a {
+            border: none;
+            background-color: transparent;
+        }
+        
+        .scrool-bar {
+            overflow-y: scroll;
+            position: sticky;
+            height: 100vh;
+        }
+        
+        .scrollspy-example {
+            margin-left: 225px;
+        }
+        
+        
+        .first-iframe {
+            height: 510px !important;
+        }
+        
+        
+        .img-div {
+            background-color: #e7e9eb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 15px !important;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        
+        .img-div i {
+            justify-content: center !important;
+            align-items: center !important;
+            margin-top: 20px !important;
+        }
+        
+        
+        .active-btn:active {
+            background-color: lightblue !important;
+        }
+        
+        
+        
+        .first-table tr, .first-table td, .first-table th {
+            padding: 5px !important;
+            border: 1px solid !important;
+        }
+        
+        .header {
+            position: fixed;
+            z-index: 1000 !important;
+        }

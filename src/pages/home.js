@@ -33,14 +33,14 @@ function Home() {
       }
   
       return () => {
-        // Cleanup: Event listener kaldırılabilir
+       
         if (cvvB) {
           cvvB.removeEventListener("click", () => {
             bodyElement.classList.add('body');
           });
         }
       }
-    }, []); // useEffect sadece bir kez çağrılsın diye boş bağımlılık dizisi kullanıldı
+    }, []);
   
 
   return (
